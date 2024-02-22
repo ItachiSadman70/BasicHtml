@@ -1,0 +1,20 @@
+tr,td,th {
+    border: 1px solid green;
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse ;
+}
+
+.main-div{
+    display: flex;
+}
+
+.child-div{
+    background-color: blue;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    flex: 1;
+}
