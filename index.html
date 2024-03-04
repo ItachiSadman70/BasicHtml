@@ -1,26 +1,227 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
-
-<style>
-    div {
-      border: 1px solid black;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-      margin-left: 8px;
-      background-color: lightblue;
-    }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Practice</title>
 </head>
 <body>
 
-<h1 style="background-color:DodgerBlue;">I am Sadman</h1>
-<h2>Good Morning</h2>
+<header>
+    <pre>
+        <h1><p>Education    projects</p></h1>
+    </pre>
+</header>
 
-<div>Patuakhali science and Technology University</div>
-<p>This is my page</p>
+<main>
+    <section>
+        <h2>My Portfolio</h2>
+    </section>
+    <section>Education: Pstu | college(RUMC)</section>
+    <section>Experience: Csit | Intern</section>
+    <article>My story:</article>
+    <aside>This ia an add</aside><br>
+
+    <div>
+        <p>Hello!</p>
+        <p>Good Morning</p>
+        <p>Bella Ciao</p>
+    </div>
+    <span>Yehh Hi!</span>
+</main>
+
+    <h1>Hello World </h1>
+    <h3>I am Sadman</h3>
+    <p style="color:aqua;text-align:center; background-color: yellow; font-size: 25px;">Computer Science and Engineering!!
+        <b>I am from gazipur,dhaka</b><br>
+        <i>i am now stay at pstu</i><br>
+        <em>Pstu,Barishal!!</em>
+        <small>Life Sucks!!</small><br>
+        <u>CSE</u>
+        <ins>SSC,HSC</ins>
+        <del>I am a good boy</del><br>
+        <mark>My mother is my Jannat</mark>
+        <p style="font-size: 37px;"><b>Sadman</b><sub>2</sub>Bhaiya
+        Wasik<sup>2</sup>Labib</p>
+        <p> Sadman says <blockquote><q>Lorem ipsum dolor sit, amet consectetur adipisicing.</q></blockquote>
+        </p>
+        <p><address><h3>Sadman,Gazipur-Dhaka</h3></address><br>
+        Sadman live in <abbr title="Bangladesh">BD</abbr></p>
+<a href="https://www.google.com" target="_blank">Click here</a> <br><br>
+<img src="images/image.jpg">
+
+</p>
+
+
+<table border= 1px solid black; border-collapse: collapse;>
+    <caption>Student Id</caption>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Address</th>
+            <th>Id</th>
+          </tr>
+    </thead>
+   <tbody>
+    <tr>
+        <td>Sadman</td>
+        <td>Dhaka</td>
+        <td rowspan="2">2002050</td>
+    </tr>
+    <tr>
+        <td>Wasik</td>
+        <td>Dhaka</td>
+        
+    </tr>
+    <tr>
+        <td>Labib</td>
+        <td>Dhaka</td>
+        <td>2002060</td>
+    </tr>
+   </tbody> 
+   
+</table>
+
+<ol type="A">
+    <li>Sadman</li>
+    <li>Sakib</li>
+    <li>Sajjad</li>
+    <li>Sadin</li>
+</ol>
+
+<ul type="square">
+    <li>Sadman</li>
+    <li>Sakib</li>
+    <li>Sajjad</li>
+    <li>Sadin</li>  
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d3RI0dhJebs?si=wbWUZ7OtsaKrX8jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<a href="any link" target="sadman"></a>
+<!--iframe diye onno website ar link,facebook video,youtube,google map show krte pari-->
+<br><br>
+<video width="560" height="315" controls loop>
+    <source src="video.mp4" type="video/mp4">
+</video><br>
+
+<audio controls>
+    <source src="audio/behula.mp3" type="audio/mp3">
+</audio><br><br>
+
+<form action="#" method="post">
+    <fieldset> <!--Form a Border dewar jonno-->
+        <legend>Contact Us</legend>
+
+        First Name<br>
+        <input type="text" placeholder="First Name"><br>
+        Last Name<br>
+        <input type="text" placeholder="Last Name">
+    <br>
+        Gender:
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">others
+    <br>
+    
+    <input type="submit" value="Send">
+    </fieldset>
+</form>
+Choose your Country
+<select name="Country"> <!--multiple size="2"-->
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="India">India</option>
+    <option value="Pakistan">Pakistan</option>
+    <option value="Srilanka" selected>Srilanka</option>
+</select>
+<br><br>
+
+<textarea rows="10" cols="20" placeholder="Enter your Message">message
+
+</textarea>
+<br>
+
+<h1 style="text-align: center;">Sign up form</h1>
+<hr>
+<br>
+<label for="user">Name:</label>
+<input type="text" id="user" name="user" placeholder="User Name">
+<br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="useremail" placeholder="User mail" required>
+<br><br>
+<label for="pass">Password:</label>
+<input type="password" id="pass" name="password" placeholder="Enter your password">
+<br><br>
+
+<label for="phn">Phone:</label>
+<select name="code">
+    <option value="+880">+880</option>
+    <option value="+990">+990</option>
+    <option value="+110">+110</option>
+</select>
+<input type="number" id="phn" name="phone" placeholder="phone no" required>
+<br><br>
+<label for="country">Country:</label>
+<input list="con">
+<datalist id="con">
+    <option value="Bangladesh"></option>
+    <option value="India"></option>
+    <option value="Pakistan"></option>
+</datalist>
+
+<br><br>
+Gender:
+<input type="radio" id="gnd1" name="gender">
+<label for="gnd1">Male</label>
+<input type="radio" id="gnd2" name="gender">
+<label for="gnd2">Female</label>
+<br><br>
+<label for="date">Date of Birth:</label>
+<input type="date" id="date" name="dob">
+<br><br>
+<label for="time">Time:</label>
+<input type="time" id="time" name="tm">
+<br><br>
+<label for="colors">Colors</label>
+<input type="color" id="colors" name="col">
+<br><br>
+
+<label for="file">Choose photo:</label>
+<input type="file" id="file" name="fl">
+<br><br>
+
+<input type="checkbox" id="vehicle1" name="vec">
+<label for="vehicle1">I have a bike</label>
+
+<input type="checkbox" id="vehicle2" name="vec">
+<label for="vehicle2">I have a car</label>
+<br><br>
+
+<textarea name="comment" cols="30" rows="10">Comment Here</textarea>
+<br><br>
+<input type="submit" value="send">
+<input type="reset" value="reset">
+<br><br>
+<marquee>Sadman Sakib</marquee>
+<br><br>
+
+<ol type="A">
+    <li> HTML <progress min="0" max="100" value="60"></progress></li>
+    <li> CSS <progress min="0" max="100" value="80"></progress></li>
+    <li> Python <progress min="0" max="100" value="47"></progress></li>
+</ol>
+
+<details>
+    <summary>Summary Here</summary>
+    Hi guys,What's up!! How are you?
+</details><br>
+
+<figure>
+    <img src="list.jpg" alt="list">
+    <figcaption>Fig1: List image</figcaption>
+</figure>
+
+<pre>Lorem,   ipsum illo vitae dolorum</pre>
 
 </body>
 </html>
